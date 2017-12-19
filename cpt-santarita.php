@@ -23,10 +23,15 @@ if ( file_exists( dirname( __FILE__ ) . '/cmb2/init.php' ) ) {
 	require_once dirname( __FILE__ ) . '/CMB2/init.php';
 }
 
+/*
 if(file_exists(dirname(__FILE__).'/pastorales/cpt-pastorales.php')){
 	require_once dirname( __FILE__ ) . '/pastorales/cpt-pastorales.php';
 }
+*/
 
+if(file_exists(dirname(__FILE__).'/noticias/cpt-noticias.php')){
+	require_once dirname( __FILE__ ) . '/noticias/cpt-noticias.php';
+}
 
 
 ?>
